@@ -7,10 +7,29 @@ h1
     margin-left: 220px;
     margin-right: 220px;
 }
+/*body
+{
+    background-image: url('Images/Ina_Bday_2021_4k.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}*/
+
+body::after{
+    content: "";
+    background: url(Images/Ina_Bday_2021_4k.png);
+    opacity: 0.2;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: fixed;
+    z-index: -1;   
+}           
 
 td
 {
     text-align: left;
+    padding-right: 20px;
 }
 
 #table
@@ -120,4 +139,21 @@ ul
     float: left;
     width: 40%;
     height: auto;
+}
+.subtitle
+{
+    font-size: 32px;
+    color: darkcyan;
+    margin-left: 200px;
+}
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+    /*color: rgb(42, 7, 105);*/
+    color: rgb(199, 108, 23);
+}
+a:hover
+{
+    /*color: rgb(199, 108, 23);*/
+    color: rgb(42, 7, 105);
 }

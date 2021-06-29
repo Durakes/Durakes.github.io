@@ -2,17 +2,12 @@ h1
 {
     color: white;
     background-color: darkcyan;
-    margin: 20px;
-    padding: 20px;
-    margin-left: 220px;
-    margin-right: 220px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
 }
-/*body
-{
-    background-image: url('Images/Ina_Bday_2021_4k.png');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}*/
 
 body::after{
     content: "";
@@ -32,23 +27,11 @@ td
     padding-right: 20px;
 }
 
-#table
-{
-    text-align: center;
-    align-content: center;
-}
-
-table
-{
-    margin-left: 250px;
-    text-align: left;
-}
-
-.table
+/*table
 {
     text-align: left;
-    margin-left: 250px;
-}
+}*/
+
 
 body
 {
@@ -68,19 +51,16 @@ h3
     float: right;
 }
 
-ul
-{
-    padding-left: 250px;
-}
-
 .perfil
 {
     max-width: 100%;
+    margin: auto;
 }
 
 .perfil-2
 {
     max-width: 100%;
+    align-items: center;
 }
 
 .section
@@ -144,7 +124,6 @@ ul
 {
     font-size: 32px;
     color: darkcyan;
-    margin-left: 200px;
 }
 
 a:link, a:visited, a:active {
@@ -156,4 +135,9 @@ a:hover
 {
     /*color: rgb(199, 108, 23);*/
     color: rgb(42, 7, 105);
+}
+
+.centrado
+{
+    text-align: center;
 }
